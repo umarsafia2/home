@@ -1,0 +1,10 @@
+/* css applies background on HogwartsHouses.html*/ 
+
+header /* background only gets applied to this element.*/
+{
+	min-height: 50vh; /* sets the smallest possible height and stops the element from being any smaller.*/
+	width: 100%;
+	background-image: url('hogwartshouses.jpg');
+	background-position: center; /* centers the background*/
+	background-size: cover; /*Scales the image to the smallest possible size to fill the container, in this case, the header element*/
+}

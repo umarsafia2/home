@@ -1,0 +1,104 @@
+table  /*table, td and th are elements used in making the table.*/
+{
+	font-family: sans-serif;
+	border-collapse: collapse; /* allows the table to only have single border.*/
+	width: 60%; 
+}
+
+td, th 
+{
+	border: 1px solid; /* the thickness of the border line*/
+	text-align: left;
+	padding: 8px;
+}
+
+#special_row /*id selector, makes a specific row have a thicker border*/
+{
+	border: 2px solid;
+}
+
+h1
+{
+	font-family: "Copperplate Gothic Light", Rockwell, serif; /* generic font is the last one, since the first one has space in it, it is surrounded by quotation marks*/
+	text-align: center;
+	font-size: 30pt;
+}
+
+h2, h3
+{
+	font-family: Rockwell, sans-serif; /* generic font is the last on */
+	font-size: 15pt;
+}
+
+a /* This rule makes the links black.*/
+{
+	color: black;
+}
+
+li
+{
+	font-family: serif;
+	font-size: 15pt;
+}
+
+h2
+{
+	font-size: 20pt;
+}
+
+p
+{
+	font-family: papyrus, monospace; /* last font is a generic font. */
+	font-size: 10pt;
+	text-align: justify;
+}
+
+img /* this rule gets applied to all images.*/
+{
+	border-width: medium;
+	border-color: black;
+	border-style: solid;
+	margin: 2%;
+}
+
+.text_on_the_right /* class selector, makes the image next to the paragraph. */
+{
+	float: left;
+}
+
+
+#wheat_border /* id selector, makes the border colour of a specific image wheat.*/
+{
+	border-color: wheat;
+}
+
+#burlywood_border /*id selector, makes the border colour of a specific image burlywood.*/
+{
+	border-color: burlywood;	
+}
+
+.darkgoldenrod_border /*class selector, makes the border colour of specific images darkgoldenrod.*/
+{
+	border-color: darkgoldenrod;
+}
+
+.lightsteelblue_border  /*class selector, makes the border colour of specific images lightsteelblue.*/
+{
+	border-color: LightSteelBlue;
+}
+
+.extra_margin /*class selector for adding extra margin after a paragraph.*/
+{
+	margin-bottom: 100px;
+}
+
+.special_font_size /* class selector for making speciic elements have a bigger font size. */
+{
+	font-size: 15pt;
+}
+
+#special_image /* makes the image with this id be centered.*/
+{
+	margin-left: 70px;
+	margin-right: 70px;
+}
