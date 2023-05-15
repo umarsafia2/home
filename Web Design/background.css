@@ -1,0 +1,26 @@
+
+/* css applies background on index.html*/ 
+body /*removes the space between the body and the background.*/
+{
+	margin: 0;
+	padding:0;
+	
+}
+
+
+section
+{
+	padding: 0 300px; /* creates the space between the white box and the background*/
+	background-image: url('bg1.jpg');
+	background-attachment: fixed; /* the background images doesn't scroll down when the page is scrolled, keeps the image fixed.*/
+	background-size: 100% 100%; 
+	align-items: center; /* aligns the whitebox in the center of the page.*/
+}
+
+.whitebox
+{
+	max-width: 600px; /* sets the maximum width of the page*/
+	padding: 50px; /* creates the space between the white box and the background*/
+	background: white;
+}
+	
